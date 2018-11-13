@@ -9,7 +9,7 @@
 import HomeHeaer from './components/Header'
 export default {
   name: 'Home',
-  //使用引入的子组件
+  //使用引入的子组件123
   components:{
     HomeHeaer
   },
