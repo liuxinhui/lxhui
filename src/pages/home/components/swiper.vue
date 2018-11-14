@@ -30,5 +30,5 @@ export default {
         padding-bottom :40%
         .swiper-img
             width :100%
-            border :1px solid red
+            border :1px solid blue
 </style>
