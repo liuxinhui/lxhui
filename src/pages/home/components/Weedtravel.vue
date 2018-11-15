@@ -9,7 +9,6 @@
                 <div class="item-info">
                     <p class="item-title">{{item.title}}</p>
                     <p class="item-desc">{{item.desc}}</p>
-                    <button class="item-button" @click="handleClick">查看详情</button>
                 </div>    
             </li>
         </ul>    
@@ -23,25 +22,25 @@
             return {
                 recomentList:[{
                     id:'001',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://img1.qunarzz.com/des-mis/ad/1810/1c/cea3dc3af5cb95.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
                 },{
                     id:'002',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://img1.qunarzz.com/des-mis/ad/1810/1c/cea3dc3af5cb95.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
                 },{
                     id:'003',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://img1.qunarzz.com/des-mis/ad/1810/1c/cea3dc3af5cb95.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
                 },{
                     id:'004',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://img1.qunarzz.com/des-mis/ad/1810/1c/cea3dc3af5cb95.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
@@ -59,35 +58,23 @@
 <style lang="stylus" scoped>
   @import '~styles/mixins.styl'
   .title
-    margin-top: .2rem
     line-height: .8rem
     background: #eee
     text-indent: .2rem
-  .item
+  .item-img-wrapper
     overflow: hidden
-    display: flex
-    height: 1.9rem
+    height: 0
+    padding-bottom: 37.09%
     .item-img
-      width: 1.7rem
-      height: 1.7rem
-      padding: .1rem
-    .item-info
-      flex: 1
-      padding: .1rem
-      min-width: 0
-      .item-title
-        line-height: .54rem
-        font-size: .32rem
-        ellipsis()
-      .item-desc
-        line-height: .4rem
-        color: #ccc
-        ellipsis()
-      .item-button
-        line-height: .44rem
-        margin-top: .16rem
-        background: #ff9300
-        padding: 0 .2rem
-        border-radius: .06rem
-        color: #fff
+      width: 100%
+  .item-info
+    padding: .1rem
+    .item-title
+      line-height: .54rem
+      font-size: .32rem
+      ellipsis()
+    .item-desc
+      line-height: .4rem
+      color: #ccc
+      ellipsis()
 </style>

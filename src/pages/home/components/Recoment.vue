@@ -23,13 +23,13 @@
             return {
                 recomentList:[{
                     id:'001',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://imgs.qunarzz.com/p/p26/201302/28/d98c85ce311ea98693835fbb.jpg_256x160_5197fb68.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
                 },{
                     id:'002',
-                    imgUrl:'http://pic.dominos.com.cn:8000/ApiPicture/ECManager/20180918/13890ff66898426489756d2e7da1cab5.jpg',
+                    imgUrl:'https://imgs.qunarzz.com/p/p78/201302/28/c2da123d4bb12ee593835fbb.jpg_256x160_3755801b.jpg',
                     name:'华宇',
                     title:'北京华宇信息有限公司',
                     desc:'xxxxxx'
