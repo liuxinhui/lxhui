@@ -3,6 +3,8 @@
     <home-heaer></home-heaer>
     <home-swiper></home-swiper>
     <home-icons></home-icons>
+    <home-recoment></home-recoment>
+    <Weed-travel></Weed-travel>
   </div>
 </template>
 
@@ -11,13 +13,17 @@
 import HomeHeaer from './components/Header'
 import HomeSwiper from './components/swiper'
 import HomeIcons from './components/icons'
+import HomeRecoment from './components/Recoment'
+import WeedTravel from './components/Weedtravel'
 export default {
   name: 'Home',
   //使用引入的子组件123
   components:{
     HomeHeaer,
     HomeSwiper,
-    HomeIcons
+    HomeIcons,
+    HomeRecoment,
+    WeedTravel
   },
   data () {
     return {
